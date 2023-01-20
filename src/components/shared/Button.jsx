@@ -2,10 +2,10 @@ import React from 'react'
 
 const Button = ({children, version, type, isDisabled}) => {
   return (
-    <button t
-      ype={type} 
+    <button 
+      type={type} 
       disabled={isDisabled} 
-      className={` btn btn-${version}`}
+      className={`btn btn-${version}`}
     >
       {children}
     </button>
